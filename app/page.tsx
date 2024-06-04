@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import Image from 'next/image'; // Import next/image
+import Image from 'next/image';
 import Footer from '../components/Footer';
 import BackgroundImage from "../public/background.jpg";
 
