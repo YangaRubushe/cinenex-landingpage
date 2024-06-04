@@ -32,7 +32,10 @@ const Home = () => {
                   About Us
                 </h2>
                 <p className="mx-auto max-w-xl text-gray-400 md:text-xl">
-                Welcome to CineNex, where movie magic meets mischief! 🎬✨ We're your quirky, popcorn-loving pals in the world of cinema! Picture this: cozy on the couch, snacks abound, remote in hand, with unlimited movies. Every night's an adventure at CineNex!🍿🎥
+                Welcome to CineNex, where movie magic meets mischief! We're your quirky, popcorn-loving pals in the world of cinema. Imagine cozying up on the couch, snacks abound, remote in hand, with amazing movies at your fingertips. Every night is an adventure at CineNex!
+                </p>
+                <p className="mx-auto max-w-xl text-gray-400 md:text-xl">
+                My project, inspired by the seamless streaming experience of Netflix, is driven by a shared passion for innovation. As a Portfolio Project for Holberton School, it's more than just a requirement—it's a testament to my dedication.
                 </p>
               </div>
             </div>

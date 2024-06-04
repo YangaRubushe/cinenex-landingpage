@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -8,11 +7,14 @@ const Footer = () => {
       <div className="container mx-auto">
         <p className="mb-2">Developed by Yanga Rubushe</p>
         <div className="flex justify-center space-x-4">
-          <a href="https://github.com/YangaRubushe" className="hover:text-gray-300">
+          <a href="https://github.com/YangaRubushe/CineNex" className="hover:text-gray-300">
             <FontAwesomeIcon icon={faGithub} className="w-6 h-6" />
           </a>
           <a href="https://x.com/YangaRubushe" className="hover:text-gray-300">
             <FontAwesomeIcon icon={faXTwitter} className="w-6 h-6" />
+          </a>
+          <a href="https://linkedin.com/in/yanga-rubushe-2ba414273" className="hover:text-gray-300">
+            <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6" />
           </a>
         </div>
       </div>
