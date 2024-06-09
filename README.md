@@ -17,8 +17,8 @@ Welcome to CineNex, your go-to platform for streaming movies and trailers. Explo
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Installation](#installation)
+- [Deployment](#deployment)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Related Projects](#related-projects)
@@ -31,9 +31,9 @@ Welcome to CineNex, your go-to platform for streaming movies and trailers. Explo
 
 CineNex is a web-based application designed to offer an experience for movie enthusiasts. With a user-friendly interface, CineNex allows users to browse through a wide range of movies and trailers, start watching their favorite films instantly, and enjoy a seamless streaming experience.
 
-Check out the deployed site here: [CineNex Deployed Site](http://your-deployed-site-link.com)
+Check out the deployed site here: [CineNex](https://cinenex-landingpage.vercel.app/)
 
-Read the final project blog article here: [CineNex Blog Article](http://your-blog-article-link.com)
+Read the final project blog article here: [CineNex Blog Article](https://medium.com/@zilithemba10/building-cinenex-my-journey-through-developing-a-modern-movie-streaming-platform-d53141bdaf78)
 
 ## Features
 
@@ -42,49 +42,64 @@ Read the final project blog article here: [CineNex Blog Article](http://your-blo
 - **User-Friendly Interface:** Enjoy CineNex, intuitive interface.
 - **Search Functionality:** Easily find specific films.
 
-## Getting Started
+## Installation
 
-To get started with CineNex, follow these steps:
+To set up CineNex locally, follow these steps:
 
-1. **Clone the Repository:**
+1. **Clone the Repository**:
    ```sh
    git clone https://github.com/YangaRubushe/CineNex.git
+   cd CineNex
    ```
 
-2. **Install Dependencies:**
+2. **Install Dependencies**:
+   Ensure you have `npm` and `Next.js` installed, then run:
    ```sh
    npm install
    ```
 
-3. **Start the Development Server:**
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add your personal information, including API keys. Here's an example of what you might need:
+   ```env
+   DATABASE_URL=<your-database-url>
+   NEXTAUTH_URL=<your-next-auth-url>
+   GOOGLE_CLIENT_ID=<your-google-client-id>
+   GOOGLE_CLIENT_SECRET=<your-google-client-secret>
+   GITHUB_CLIENT_ID=<your-github-client-id>
+   GITHUB_CLIENT_SECRET=<your-github-client-secret>
+   ```
+
+4. **Run the Development Server**:
+   Start the development server with:
    ```sh
    npm run dev
    ```
 
-4. **Access CineNex:**
-   Visit [http://localhost:3000](http://localhost:3000) in your web browser.
+   Your application should now be running on `http://localhost:3000`.
 
-## Installation
+## Deployment
 
-Clone the repository and install the dependencies as shown in the Getting Started section. Ensure you have [Node.js](https://nodejs.org/) and [Next.js](https://nextjs.org/) installed on your machine.
+CineNex is deployed using Vercel. To deploy your own version:
+
+1. **Connect to Vercel**: Log in to Vercel and connect your GitHub repository.
+2. **Configure Environment Variables**: Set the same environment variables in Vercel as you have in your local `.env` file.
+3. **Deploy**: Trigger a deployment from the Vercel dashboard.
 
 ## Usage
 
-Once you have CineNex up and running, you can:
-
-- **Browse Movies and Trailers:** Explore the collection and find new films to watch.
-- **View Movie Details:** Click on a movie to see its details and start streaming.
-- **Search for Films:** Use the search bar to find specific movies quickly.
-- **Enjoy Seamless Streaming:** Experience high-quality, uninterrupted streaming.
+- **Browse Movies**: Explore the latest movie trailers and detailed information about each movie.
+- **Authentication**: Sign up or log in using Google, GitHub, or email for a personalized experience.
+- **Responsive Design**: Enjoy a seamless experience across all devices.
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to CineNex:
+Developers are welcome to contribute to CineNex. To get started:
 
-1. Fork the repository and create a new branch for your feature or bug fix.
-2. Make your changes and ensure the code is properly formatted.
-3. Write tests to cover any new functionality.
-4. Submit a pull request with a detailed description of your changes.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Open a pull request.
 
 ## Related Projects
 
