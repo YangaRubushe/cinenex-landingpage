@@ -4,13 +4,14 @@
 
 Welcome to CineNex, your go-to platform for streaming movies and trailers. Explore our vast collection of films and start watching now!
 
-CineNex Landing Page:
+## CineNex Landing Page:
 ![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/4a99364c-629d-4a72-8398-e16d86e54723)
 
-![CineNex LogIn Page](![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/8bedd662-3751-4fd8-ad39-9e187f1c9acb)
+## CineNex LogIn Page
+![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/8bedd662-3751-4fd8-ad39-9e187f1c9acb)
 
-![CineNex Home Page](![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/bfe4189c-ebe7-4ae1-9fd2-1ed029b0eb75)
-)
+## CineNex Home Page
+![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/bfe4189c-ebe7-4ae1-9fd2-1ed029b0eb75)
 
 ## Table of Contents
 
@@ -21,10 +22,10 @@ CineNex Landing Page:
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Related Projects](#related-projects)
-- [License](#license)
-- [Authors](#authors)
 - [Resources](#resources)
 - [Technical Details](#technical-details)
+- [License](#license)
+- [Authors](#authors)
 
 ## Introduction
 
@@ -91,17 +92,6 @@ Here are some related projects that you might find interesting:
 
 - [CinexNex whole project](https://github.com/YangaRubushe/CineNex)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Authors
-
-This project was developed by Yanga Rubushe.
-
-- LinkedIn: [Yanga Rubushe](https://www.linkedin.com/in/yangarubushe)
-- X: [Yanga Rubushe](https://www.x.com/yangarubushe)
-
 ## Resources
 
 - [Next.js](https://nextjs.org/)
@@ -113,12 +103,19 @@ This project was developed by Yanga Rubushe.
 
 ## Technical Details
 
-CineNex was built using React for the frontend and Next.js for the backend. The application interfaces with a Supabase database to manage movie data.
+CineNex was built using React for the frontend and Node.js for the backend. The application interfaces with a Supabase database to manage movie data.
 
 - **Database Configuration:** You can find the database configuration in the [database.js](path/to/database.js) file.
 
-### Inspiration and Challenges
-
-Creating CineNex was inspired by the desire to provide an accessible and enjoyable movie streaming platform. One of the main challenges was implementing the search functionality to quickly filter through a large database of films efficiently. 
-
 Future iterations of CineNex will focus on enhancing the recommendation system, improving the user interface, and adding more features such as user reviews and ratings.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Authors
+
+This project was developed by Yanga Rubushe.
+
+- LinkedIn: [Yanga Rubushe](https://www.linkedin.com/in/yangarubushe)
+- X: [Yanga Rubushe](https://www.x.com/yangarubushe)
