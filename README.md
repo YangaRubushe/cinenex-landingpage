@@ -120,13 +120,13 @@ Here are some related projects that you might find interesting:
 
 CineNex was built using React for the frontend and Node.js for the backend. The application interfaces with a Supabase database to manage movie data.
 
-- **Database Configuration:** You can find the database configuration in the [database.js](path/to/database.js) file.
+- **Database Configuration:** You can find the database configuration in the [db.js](https://github.com/YangaRubushe/CineNex/blob/master/app/utils/db.ts) file.
 
 Future iterations of CineNex will focus on enhancing the recommendation system, improving the user interface, and adding more features such as user reviews and ratings.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENCE) file for details.
 
 ## Authors
 
