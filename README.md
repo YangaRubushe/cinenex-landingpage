@@ -4,10 +4,11 @@
 
 Welcome to CineNex, your go-to platform for streaming movies and trailers. Explore our vast collection of films and start watching now!
 
-![CineNex Landing Page](![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/4a99364c-629d-4a72-8398-e16d86e54723)
-)
+CineNex Landing Page:
+![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/4a99364c-629d-4a72-8398-e16d86e54723)
+
 ![CineNex LogIn Page](![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/8bedd662-3751-4fd8-ad39-9e187f1c9acb)
-)
+
 ![CineNex Home Page](![image](https://github.com/YangaRubushe/cinenex-landingpage/assets/118383164/bfe4189c-ebe7-4ae1-9fd2-1ed029b0eb75)
 )
 
