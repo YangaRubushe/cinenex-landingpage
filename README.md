@@ -31,7 +31,7 @@ Welcome to CineNex, your go-to platform for streaming movies and trailers. Explo
 
 CineNex is a web-based application designed to offer an experience for movie enthusiasts. With a user-friendly interface, CineNex allows users to browse through a wide range of movies and trailers, start watching their favorite films instantly, and enjoy a seamless streaming experience.
 
-Check out the deployed site here: [CineNex](https://cinenex-landingpage.vercel.app/)
+Check out the deployed site here: [CineNex](https://cinenex.vercel.app/)
 
 Read the final project blog article here: [CineNex Blog Article](https://medium.com/@zilithemba10/building-cinenex-my-journey-through-developing-a-modern-movie-streaming-platform-d53141bdaf78)
 
